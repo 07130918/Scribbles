@@ -14,8 +14,10 @@ def write_manifest():
         "name": "Scribbles",
         "description": "A simple notepad extension for Chrome",
         "manifest_version": 3,
-        "version": "1.0.0",
-        "permissions": ["activeTab", "storage"],
+        "version": "1.0.1",
+        "permissions": [
+            "storage"
+        ],
         "icons": {
             "16": "icons/icon16.png",
             "48": "icons/icon48.png",
