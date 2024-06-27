@@ -56,7 +56,7 @@ const NoteButtons = ({
 				+
 			</Button>
 			<Button
-				colorScheme="blue"
+				colorScheme="blackAlpha"
 				variant={notes.length <= NOTE_MIN_COUNT ? "outline" : "solid"}
 				size="sm"
 				disabled={notes.length <= NOTE_MIN_COUNT}

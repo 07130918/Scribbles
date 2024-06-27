@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 import TextareaAutosize from "react-textarea-autosize";
 
@@ -26,14 +26,14 @@ type NoteFieldProps = {
 
 const NoteField = ({ text, onChange }: NoteFieldProps) => {
 	return (
-		<Box w="400px">
+		<Stack w="400px">
 			<StyledTextareaAutoSize
 				value={text}
 				placeholder="Enter memo here"
 				minRows={10}
 				onChange={onChange}
 			/>
-		</Box>
+		</Stack>
 	);
 };
 
