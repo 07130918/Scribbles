@@ -3,7 +3,8 @@ A simple memo extension for Chrome
 
 ## Debug on browser
 
-*** extension's ID ***は、デプロイ毎に変わります。
+***extension's ID*** は、デプロイ毎に変わります。
+
 open `chrome-extension://{extension's ID}/index.html`
 
 # Getting Started with Create React App
