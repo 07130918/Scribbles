@@ -5,6 +5,8 @@ A simple memo extension for Chrome
 
 open `chrome-extension://{extension's ID}/index.html`
 
+`chrome-extension://kjbdhcdgdcipnifdhnpldjibglpjnjib/index.html`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
