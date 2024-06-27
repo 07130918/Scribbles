@@ -14,7 +14,7 @@ def write_manifest():
         "name": "Scribbles",
         "description": "A simple notepad extension for Chrome",
         "manifest_version": 3,
-        "version": "1.0.1",
+        "version": "1.1.0",
         "permissions": [
             "storage"
         ],
